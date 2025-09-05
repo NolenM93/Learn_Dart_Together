@@ -1,4 +1,18 @@
-//Welcome To The basics!
+//Welcome To The basics!            //  DevOps is the name of the branch you may work on to change any code.
+                                    //   DevOps Branch Commit Rules:
+                                        //  1. Pull first: git pull origin DevOps
+                                        //  2. Use clear messages: type(scope): description
+                                        //  3. Commit small, and test well.
+                                        //  4. Push clean: git push origin DevOps
+                                        
+                                        // P.S Only merge DevOps branch with main under these circumstances:
+                                        // 1. Has no unfinished methods and has meaningful changes.
+                                        // 2. Passes all tests and build checks.
+                                        // DO NOT MERGE if:
+                                        // The branch is empty.
+                                        // You’re still testing or iterating on workflows.
+                                        // It introduces breaking changes without coordination.
+//---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 // Import statements are like borrowing tools from a library to build our app.
 // They let us use pre-made code to save time and add features.
 import 'package:flutter/material.dart'; // This is Flutter's main library, giving us tools to build the user interface (UI) like buttons, text fields, and layouts.
