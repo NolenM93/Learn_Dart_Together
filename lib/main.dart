@@ -94,7 +94,7 @@ class StudyPalsApp extends StatelessWidget {
           // Fill the text field with a color for a solid background.
           filled: true,
           // Slightly transparent white to blend with the gradient background.
-          fillColor: Colors.white.withOpacity(0.9),
+          fillColor: Colors.white.withValues(red: 255, green: 255, blue: 255, alpha: 0.9 * 255),
           // OutlineInputBorder makes text fields have a border.
           border: OutlineInputBorder(
             // Rounded corners (15 pixels) for a bubbly look.
