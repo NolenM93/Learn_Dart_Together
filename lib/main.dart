@@ -27,7 +27,6 @@ void main() {
   runApp(const StudyPalsApp());
 }
 
-
 // StudyPalsApp is a widget that defines the overall app structure.
 // It’s a StatelessWidget, meaning it’s a static piece of UI that doesn’t change (like a fixed picture, not a video).
 class StudyPalsApp extends StatelessWidget {
